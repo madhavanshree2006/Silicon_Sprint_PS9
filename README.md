@@ -110,3 +110,89 @@ Percentage reduction:
 
 ---
 <p align="center"><img src="./images/area_compar.png" width="700" alt="image 1"/></p>
+
+---
+
+## Throughput per Area Efficiency Analysis
+
+Throughput per Area Efficiency evaluates how efficiently a design uses silicon area to deliver computational performance. It combines the **operating frequency, latency, and silicon area** into a single metric.
+
+<p align="center"><img src="./images/image.png" width="700" alt="image 1"/></p>
+
+---
+
+## 1 Maximum Operating Frequency
+
+From the timing reports:
+
+### Normal Divider
+
+Data path delay
+<p align="center"><img src="./images/image1.png" width="700" alt="image 1"/></p>
+
+---
+
+### Area Optimized Divider
+
+Data path delay
+
+<p align="center"><img src="./images/image2.png" width="700" alt="image 1"/></p>
+
+---
+
+## 2 Latency
+
+| Design | Cycles per Division |
+| --- | --- |
+| Normal Divider | 1 cycle |
+| Optimized Divider | 16 cycles |
+
+---
+
+## 3 Throughput Calculation
+
+### Normal Divider
+
+```
+Throughput = 3.26 GHz / 1
+```
+
+```
+Throughput ≈ 3.26 × 10^9 operations/sec
+```
+
+---
+
+### Optimized Divider
+
+```
+Throughput = 206 MHz / 16
+```
+
+```
+Throughput ≈ 12.9 × 10^6 operations/sec
+```
+
+---
+
+## 4 Throughput per Area
+
+| Design | Throughput | Area | Throughput / Area |
+| --- | --- | --- | --- |
+| Normal Divider | 3.26 × 10⁹ ops/s | 4204.579 | **7.75 × 10⁵** |
+| Optimized Divider | 1.29 × 10⁷ ops/s | 3196.389 | **4.03 × 10³** |
+
+---
+
+## 5 Observation
+
+The normal divider achieves significantly higher throughput because the entire division operation is performed in a single cycle using combinational logic. However, this approach requires larger hardware resources.
+
+The area-optimized divider reduces silicon area by approximately **24%**, but requires multiple clock cycles to complete the division. As a result, its throughput is lower.
+
+## Conclusion
+This project implemented and analyzed two architectures for a 16-bit integer divider: a normal combinational divider and an area-optimized sequential divider. Both designs were verified through simulation and synthesized using Cadence Genus to evaluate their hardware characteristics.
+
+The synthesis results show that the optimized divider reduces the total silicon area from 4204.579 µm² to 3196.389 µm², achieving an area reduction of approximately 24%. This improvement is obtained by using an iterative shift-subtract algorithm that reuses hardware resources across multiple clock cycles.
+
+Although the combinational divider provides higher throughput due to its single-cycle operation, it requires significantly more hardware. The optimized divider demonstrates that trading performance for hardware reuse can effectively reduce silicon area, making it suitable for area-constrained digital systems.
