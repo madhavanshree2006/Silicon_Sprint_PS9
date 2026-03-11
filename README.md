@@ -109,3 +109,4 @@ Percentage reduction:
 ```
 
 ---
+<p align="center"><img src="./images/area_compar.png" width="700" alt="image 1"/></p>
