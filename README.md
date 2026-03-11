@@ -9,10 +9,12 @@ divider-area-optimization/
 ├── README.md
 │
 ├── images/
-│   ├── normal_divider_flow.png
-│   ├── optimized_divider_flow.png
-│   ├── waveform.png
-│   └── architecture_diagram.png
+│   ├── Flow
+│   │     └── normal_divider_flow.png
+│   │     └── optimized_divider_flow.png
+│   ├── Waveforms
+│   │     └── normal_divider1_wavewform.png
+│   │     └── optimized_divider_wavewform.png
 │
 ├── rtl/
 │   ├── divider_normal.v
@@ -23,14 +25,12 @@ divider-area-optimization/
 │   └── tb_divider_optimized.sv
 │
 ├── synthesis/
-│   ├── synth.tcl
-│   ├── reports/
-│   │   ├── normal_area.rpt
-│   │   ├── optimized_area.rpt
-│   │   ├── timing.rpt
-│   │   └── power.rpt
+│   └── synth.tcl
 │
-└── results/
-    ├── area_comparison_table.md
-    └── waveform.vcd
+├── reports/
+    ├── normal_area.rpt
+    ├── normal_timing.rpt
+    ├── optimized_area.rpt
+    ├── optimized_power.rpt
+    └── optimized_timing.rpt
 ```
