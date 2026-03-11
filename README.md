@@ -3,11 +3,17 @@
 
 ## Objective
 
-Design and analysis of a 16-bit
- integer divider with emphasis on minimizing hardware area and gate 
-count. The project compares a normal combinational divider with an 
-area-optimized sequential divider using synthesis results.
+## 9. Area-Constrained Divider [R:3, V:2, S:4] 
 
+Specification: Design a 16-bit integer divider that prioritizes minimal gate count over throughput or cycle count.
+
+Deliverables:
+
+RTL: Iterative/sequential divider logic and control FSM.
+
+Verification: Testbench verifying quotient and remainder accuracy for randomized divisors.
+
+Synthesis: Gate-level area report and throughput-per-area efficiency analysis.
 ```
 divider-area-optimization/
 │
