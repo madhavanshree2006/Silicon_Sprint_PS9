@@ -1,6 +1,9 @@
 
 # **Silicon_Sprint_PS9**
+---
+## Team ID : 36
 
+---
 ## Objective
 
 ## 9. Area-Constrained Divider [R:3, V:2, S:4] 
@@ -14,6 +17,8 @@ RTL: Iterative/sequential divider logic and control FSM.
 Verification: Testbench verifying quotient and remainder accuracy for randomized divisors.
 
 Synthesis: Gate-level area report and throughput-per-area efficiency analysis.
+
+
 ```
 divider-area-optimization/
 │
