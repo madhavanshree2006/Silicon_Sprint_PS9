@@ -29,6 +29,7 @@ divider-area-optimization/
 │
 ├── reports/
     ├── normal_area.rpt
+    ├── normal_power.rpt
     ├── normal_timing.rpt
     ├── optimized_area.rpt
     ├── optimized_power.rpt
