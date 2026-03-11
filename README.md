@@ -117,7 +117,7 @@ Percentage reduction:
 
 Throughput per Area Efficiency evaluates how efficiently a design uses silicon area to deliver computational performance. It combines the **operating frequency, latency, and silicon area** into a single metric.
 
-<p align="center"><img src="./images/image .png" width="700" alt="image"/></p>
+<p align="center"><img src="./images/image 3.png" width="700" alt="image"/></p>
 
 ---
 
