@@ -117,7 +117,7 @@ Percentage reduction:
 
 Throughput per Area Efficiency evaluates how efficiently a design uses silicon area to deliver computational performance. It combines the **operating frequency, latency, and silicon area** into a single metric.
 
-<p align="center"><img src="./images/image.png" width="700" alt="image 1"/></p>
+<p align="center"><img src="./images/image.png" width="700" alt="image"/></p>
 
 ---
 
@@ -128,7 +128,7 @@ From the timing reports:
 ### Normal Divider
 
 Data path delay
-<p align="center"><img src="./images/image1.png" width="700" alt="image 1"/></p>
+<p align="center"><img src="./images/image1.png" width="700" alt="image1"/></p>
 
 ---
 
@@ -136,7 +136,7 @@ Data path delay
 
 Data path delay
 
-<p align="center"><img src="./images/image2.png" width="700" alt="image 1"/></p>
+<p align="center"><img src="./images/image2.png" width="700" alt="image2"/></p>
 
 ---
 
