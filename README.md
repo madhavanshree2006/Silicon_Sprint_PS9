@@ -128,7 +128,7 @@ From the timing reports:
 ### Normal Divider
 
 Data path delay
-<p align="center"><img src="./images/image_2.png.png" width="700" alt="image1"/></p>
+<p align="center"><img src="./images/image_2.png" width="700" alt="image1"/></p>
 
 ---
 
