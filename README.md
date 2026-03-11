@@ -8,13 +8,11 @@ divider-area-optimization/
 │
 ├── README.md
 │
-├── docs/
-│   ├── divider_report.pdf
-│   ├── images/
-│   │   ├── normal_divider_flow.png
-│   │   ├── optimized_divider_flow.png
-│   │   ├── waveform.png
-│   │   └── architecture_diagram.png
+├── images/
+│   ├── normal_divider_flow.png
+│   ├── optimized_divider_flow.png
+│   ├── waveform.png
+│   └── architecture_diagram.png
 │
 ├── rtl/
 │   ├── divider_normal.v
